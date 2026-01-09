@@ -1,0 +1,13 @@
+p{
+    font-family: Verdana, sans-serif ;
+    font-size: 20px;
+    display: inline-block;
+}
+h1, h3, h5{
+    color: blue;
+    background-color: pink;
+}
+sub, sup{
+    font-size: 16px;
+    color: red;
+}
