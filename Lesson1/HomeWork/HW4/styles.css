@@ -1,0 +1,12 @@
+span{
+    display: inline-block;
+    padding: 15px 10px;
+    margin: 2px;
+    background-color: rgb(223, 223, 223);
+    font-size: 32px;
+    font-family: arial, sans-serif;
+}
+h3 {
+    font-family: arial, sans-serif;
+    color: rgb(103, 106, 104);
+}
