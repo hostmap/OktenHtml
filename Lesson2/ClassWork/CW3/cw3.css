@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,800;0,900;1,300;1,600;1,800;1,900&family=Marck+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+p {
+    color: red;
+    font-size: 24px;
+}
+.text-one {
+    font-family: 'Fira Sans', sans-serif;
+    color: green;
+}
+.text-two {
+    font-family: "Marck Script", cursive;
+    color: blue;
+    background-color: yellow;
+}
+#text-three {
+    color: pink;
+
+}
+
+.block-1 {
+    background-color: lightgreen;
+    text-align: center;
+}
+.block-2 {
+    background-color: lightcoral;
+}
+.block-3 {
+    background-color: lightblue;
+}
+.block-4 {
+    background-color: gray;
+    }
+
+.block-5 {
+    background-color: lightgreen;
+}
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 25vh;
+    height: 25vh;
+}
+.wrapper{
+    background-color: pink;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.block img{
+    width: 50%;
+
+}
