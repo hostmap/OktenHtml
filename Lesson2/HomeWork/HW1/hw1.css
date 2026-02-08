@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+body{
+    background-color: lightgray;
+}
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+}
+.card {
+    width: 200px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f1eeee;
+    }
+.card img {
+    width: 10rem;
+    height: 7rem;
+    }
+.foot {
+    text-align: center;
+    }
+

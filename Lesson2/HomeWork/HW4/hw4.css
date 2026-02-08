@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rubik-pixels-regular {
+    font-family: "Rubik Pixels", system-ui;
+    background-color: #FFF9AD;
+    }
+.sedgwick-ave-display-regular {
+    font-family: "Sedgwick Ave Display", cursive;
+    background-color: gray;
+    color: white;
+    }
+
+.dancing-script-400 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    background-color: #d2e3c9;
+}
+.fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    background-color: #4f6f53;
+    color: white;
+    }
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    background-color: #ffe3c4;
+    }
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    gap: 2vw;
+    }
+.fonts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 15vw;
+}

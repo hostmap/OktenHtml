@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    height: 50vh;
+    background-color: #ffe2c6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rectun{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 1s;
+    }
+.rectun:hover {
+    background-color: gray;
+    border-radius: 50%;
+    transition: 2s;
+}

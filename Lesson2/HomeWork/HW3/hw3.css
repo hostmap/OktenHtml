@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #4f6f53;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 30px;
+}
+.month{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 300px;
+    height: 250px;
+    background-color: #d2e3c9;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.month:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+p{
+    padding: 10px 0;
+    font-size: 20px;
+}
